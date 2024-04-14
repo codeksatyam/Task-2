@@ -1,0 +1,108 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 60%;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 5px;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    display: flex;
+    margin: 10px 50px;
+
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+  }
+  
+  .feature i {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .cta {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .cta p {
+    margin-bottom: 20px;
+  }
+  
+  input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff8533;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+  }
+
+  .image-container {
+    max-width: 40%;
+    padding-left: 0%;
+    margin-left: auto;
+  }
+  
+  .bag-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  .text-area {
+    flex: 1;
+    margin-left: auto; /* Take up remaining space */
+  }
+  .nav-container{
+    text-align: center;
+  }
+  .footer-container{
+    text-align: center;
+    height: auto;
+    margin: 10px;
+  }
+  
